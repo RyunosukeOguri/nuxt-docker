@@ -34,7 +34,7 @@ $ docker-compose run app yarn run lint --fix
 
 # NUXT × Docker環境の作成方法
 
-※PORTは5001を使っています。
+※PORTは5001を使っています。自由に変えてOK
 
 ### 1.NUXTのソースディレクトリを作成する
 ```
@@ -127,7 +127,7 @@ $ docker-compose build
 $ docker-compose run app npx create-nuxt-app .
 ```
 
-### 6.package.jsonの `dev: “next”` の部分を `HOST=0.0.0.0 PROT=5001 nuxt`と修正する
+### 6.package.jsonのscript `dev: “nuxt”` の部分を `HOST=0.0.0.0 PROT=5001 nuxt`と修正する
 
 ```
 {
