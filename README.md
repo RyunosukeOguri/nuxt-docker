@@ -38,7 +38,7 @@ $ docker-compose run app yarn run lint --fix
 
 ### 1.NUXTのソースディレクトリを作成する
 ```
-$ mkdir docker/nuxt.js/src/app
+$ mkdir -p docker/nuxt.js/src/app
 ```
 
 ### 2.Dockerfileファイルを作成する
